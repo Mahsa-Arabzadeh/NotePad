@@ -5,6 +5,8 @@
     --text-color: #9CA2AC;
     --title-color: #F7F6F3;
     --bg-title-color: #252628;
+    --bg-category-color: #3f4041;
+    --neon-color: #e6820f;
 }
 /* add fonts */
 @font-face {

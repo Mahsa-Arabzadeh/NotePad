@@ -51,3 +51,36 @@ header .category-box , .date-box{
     display: flex;
     justify-content: space-between;
 }
+/* some style to category options and date options */
+header .category-option, .date-option{
+    background-color: var(--bg-category-color);
+    color: var(--title-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2px 5px;
+    width: 130px;
+    border-radius: 5px;
+}
+header .category-option{
+    margin-bottom: 7px;
+}
+header .category-option svg:last-of-type, .date-option svg{
+    fill: var(--text-color);
+    width: 12px;
+}
+/* change color svg image to orange neon */
+header .category-option svg:first-of-type{
+    fill: var(--neon-color);
+}
+header .text-note>#NotePad{
+    background-color: var(--neon-color);
+    margin-top: 10px;
+    border-radius: 7px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    color: var(--title-color);
+    position: relative;
+    width: 100%;
+}
