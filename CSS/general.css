@@ -7,6 +7,9 @@
     --bg-title-color: #252628;
     --bg-category-color: #3f4041;
     --neon-color: #e6820f;
+    --del-color: rgba(81, 12, 12, 0.187);
+    --text-delete: rgb(224, 106, 106);
+    --note-write-part: #e6820f10;
 }
 /* add fonts */
 @font-face {

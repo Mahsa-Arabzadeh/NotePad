@@ -15,6 +15,7 @@ header {
 .container {
     padding: 38px 60px 30px;
     position: relative;
+    height: 700px;
 }
 /* some style to header title box */
 header .title-box{
@@ -74,7 +75,7 @@ header .category-option svg:first-of-type{
     fill: var(--neon-color);
 }
 header .text-note>#NotePad{
-    background-color: var(--neon-color);
+    background-color: var(--note-write-part);
     margin-top: 10px;
     border-radius: 7px;
     padding: 10px 20px;
@@ -83,4 +84,26 @@ header .text-note>#NotePad{
     color: var(--title-color);
     position: relative;
     width: 100%;
+}
+header .text-note>#NotePad:focus{
+    border: 1px solid rgb(255, 128, 0);
+}
+footer .footer-part{
+    display: flex;
+    justify-content: center;
+}
+footer .add-file{
+    color: var(--title-color);
+    background-color: var(--bg-title-color);
+    padding: 10px 30px;
+    border-radius: 7px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+footer .del-file{
+    background-color: var(--del-color);
+    color: var(--text-delete);
+    padding: 10px 30px;
+    border-radius: 7px;
+    cursor: pointer;
 }
