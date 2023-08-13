@@ -15,7 +15,7 @@ header {
 .container {
     padding: 38px 60px 30px;
     position: relative;
-    height: 700px;
+    height: 600px;
 }
 /* some style to header title box */
 header .title-box{
