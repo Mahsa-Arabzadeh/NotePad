@@ -1,0 +1,53 @@
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+/* header styles [start]*/
+header {
+    margin: 0 auto;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.6;
+}
+/* contaienr styles */
+.container {
+    padding: 38px 60px 30px;
+    position: relative;
+}
+/* some style to header title box */
+header .title-box{
+    background-color: var(--bg-title-color);
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+/* some style to title of notepad */
+header .title-box>span{
+    border-bottom: 1px solid grey;
+    color: var(--title-color);
+    margin-bottom: 10px;
+    width: 70px;
+    font-size: 17px;
+}
+/* some style to input text of notepad */
+header .title-box>input[type = text]{
+    background-color: var(--bg-title-color);
+    color: var(--title-color);
+    outline: none;
+    border: none;
+}
+/* some style to category */
+header .category{
+    background-color: var(--bg-title-color);
+    border-radius: 7px;
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+/* some style to category box */
+header .category-box , .date-box{
+    display: flex;
+    justify-content: space-between;
+}
