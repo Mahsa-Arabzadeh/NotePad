@@ -26,9 +26,9 @@ addBtn.addEventListener("click", function (e) {
     h2.classList.add("output-title");
     p.classList.add("text");
 
-    child.appendChild(delBtn);
-    child.appendChild(h2);
+    child.appendChild(h2).style = "color: #fff";
     child.appendChild(p);
+    child.appendChild(delBtn);
     output.appendChild(child);
 
     inputTitle.innerHTML = "";

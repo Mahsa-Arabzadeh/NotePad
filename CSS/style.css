@@ -61,17 +61,27 @@ header .category-option, .date-option{
     padding: 2px 5px;
     width: 130px;
     border-radius: 5px;
+    display: flex;
 }
 header .category-option{
     margin-bottom: 7px;
 }
-header .category-option svg:last-of-type, .date-option svg{
-    fill: var(--text-color);
-    width: 12px;
+header .date-option svg{
+    width: 10px;
+    margin-left: 19px;
+    fill: #fff;
 }
 /* change color svg image to orange neon */
 header .category-option svg:first-of-type{
     fill: var(--neon-color);
+    margin-right: 5px;
+}
+select{
+    color: #fff;
+    background-color: var(--bg-category-color);
+    border: none;
+    cursor: pointer;
+    font
 }
 header .text-note>#NotePad{
     background-color: var(--note-write-part);
@@ -113,4 +123,18 @@ footer{
     flex-direction: column;
     justify-content: center;
     line-height: 1.6;
+}
+.lists{
+    background-color: var(--note-write-part);
+    max-width: 50%;
+    margin-bottom: 5px;
+    border-radius: 6px;
+    gap: 10px;
+    padding: 5px 20px;
+}
+.delete{
+    background-color: var(--bg-category-color);
+    border-radius: 6px;
+    padding: 5px;
+    cursor: pointer;
 }
