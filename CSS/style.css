@@ -87,19 +87,11 @@ header .text-note>#NotePad{
 header .text-note>#NotePad:focus{
     border: 1px solid rgb(255, 128, 0);
 }
-main{
-    margin: 0 auto;
-    max-width: 900px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    line-height: 1.6;
-}
-footer .footer-part{
+.footer-part{
     display: flex;
     justify-content: center;
 }
-footer .add-file{
+.add-task{
     color: var(--title-color);
     background-color: var(--bg-title-color);
     padding: 10px 30px;
@@ -107,10 +99,18 @@ footer .add-file{
     margin-right: 40px;
     cursor: pointer;
 }
-footer .del-file{
+.del-file{
     background-color: var(--del-color);
     color: var(--text-delete);
     padding: 10px 30px;
     border-radius: 7px;
     cursor: pointer;
+}
+footer{
+    margin: 0 auto;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.6;
 }
